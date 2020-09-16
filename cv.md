@@ -28,4 +28,4 @@ Hello! My name Aliaksandr, 37 years old and I from Minsk. I have a higher educat
 
 > Today i have not expereince in commercial development, but you can see some my work and code examples at [my portfolio page on github](https://senobiot.github.io/portfolio.github.io/).
 And now, I studying the free JS/Front-End course in RS School online.
-I am absolutely sure that in the near future I will become a developer, because I am purposeful, consistent and most importantly for me, I really enjoy learning development. My level of English is A2, but I'm sure I can improve it in the process.
+I am absolutely sure that in the near future I will become a developer, because I am purposeful, consistent and most importantly for me, I really enjoy learning development. **My  English level** is A2, but I'm sure I can improve it in the process.
