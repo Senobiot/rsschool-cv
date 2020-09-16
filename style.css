@@ -1,0 +1,93 @@
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+body {
+	width: 100%;
+	background-color: #282828;
+	margin: 0 auto;
+}
+header {
+	background-color: #29363f;
+	color: #fff;
+	height: 100px;
+	max-width: 1600px;
+	margin: 0 auto;
+	font-family: Roboto, sans-serif;
+	font-size: 28px;
+	font-weight: 200;
+	display: flex;
+	align-items: flex-end;
+}
+.about {
+}
+.name_block {
+}
+.photo_block {
+}
+.bio {
+}
+.personal {
+}
+.personal__block {
+}
+.personal__block_category {
+}
+.personal__block_data {
+}
+.software {
+}
+.software__block {
+}
+.software__block_category {
+}
+.software__block_skill {
+}
+.hobbies {
+}
+.hobbies__block {
+}
+.hobbies__block_picture {
+}
+.hobbies__block_name {
+}
+.work {
+}
+.work__block {
+}
+.work__block_company {
+}
+.work__block_year {
+}
+.work__block_about {
+}
+.skills {
+}
+.skills__block {
+}
+.skills__block_name {
+}
+.education {
+}
+.education__block {
+}
+.education__block_statement {
+}
+.socials {
+}
+.socials__net {
+}
+.socials__net_logo {
+}
+.socials__net_link {
+}
+.contacts {
+}
+.contacts_adress {
+}
+.contacts_phone {
+}
+.contacts_email {
+}
+.contacts_portfolio {
+}
