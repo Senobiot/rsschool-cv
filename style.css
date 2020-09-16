@@ -143,10 +143,36 @@ main {
 .software {
 }
 .software__block {
+	height: 50px;
+	display: flex;
+	align-items: center;
 }
 .software__block_category {
+	font-size: 24px;
+	font-weight: 300;
+	width: 45%;
 }
 .software__block_skill {
+	position: relative;
+	width: 55%;
+	background-color: #d9dadb;
+	height: 30%;
+}
+.software__block_skill::before {
+	content: '';
+	position: absolute;
+	width: 50%;
+	background-color: #3e4e55;
+	height: 100%;
+}
+.html::before, .css::before {
+	width: 75%;
+}
+.js::before {
+	width: 20%;
+}
+.figma::before {
+	width: 30%;
 }
 .hobbies {
 }
