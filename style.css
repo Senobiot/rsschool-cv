@@ -1,3 +1,42 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
 .wrapper {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -18,22 +57,88 @@ header {
 	font-weight: 200;
 	display: flex;
 	align-items: flex-end;
+	padding-bottom: 20px;
+}
+section	{
+	max-width: 1600px;
+	margin: 0 auto;
 }
 .about {
+	background-color: #3e4f57;
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	font-weight: 200;
 }
-.name_block {
+.about .wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 300px;
+}
+.name_block h1 {
+	font-weight: 300;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+.name_block h2 {
+	color: #93a0a8;
+	font-size: 48px;
+	font-weight: 200;
 }
 .photo_block {
 }
 .bio {
+	display: flex;
+	align-items: center;
+	background-color: #b9c4ca;
+	color: #4f6068;
+	height: 150px;
+	font-size: 30px;
+	font-family: Roboto, sans-serif;
+	line-height: 1.2;
+	font-weight: 300;
 }
-.personal {
+h3 {
+	color: #4f6068;
+	font-size: 30px;
+	font-family: Roboto, sans-serif;
+	line-height: 1.2;
+	font-weight: 300;
+	padding: 50px 0 45px;
+}
+main {
+	background-color: #fff;
+	max-width: 1600px;
+	margin: 0 auto;
+	font-family: Roboto, sans-serif;
+}
+.main_left {
+	width: 35%;
+}
+.main_right {
+	width: 65%;
 }
 .personal__block {
+	color: #576468;
+	height: 70px;
+	display: flex;
+	border-bottom: 2px solid #c5c6c8;
+	align-items: center;
 }
 .personal__block_category {
+	font-weight: 600;
+	font-size: 24px;
+	width: 45%;
+	
 }
 .personal__block_data {
+	width: 55%;
+	font-size: 24px;
+	font-weight: 300;
+	text-align: left;
+}
+.personal__block_data span {
+	font-size: 16px;
 }
 .software {
 }
