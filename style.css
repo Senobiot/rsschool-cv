@@ -37,10 +37,7 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
-.wrapper {
-	max-width: 1200px;
-	margin: 0 auto;
-}
+
 body {
 	width: 100%;
 	background-color: #282828;
@@ -57,7 +54,7 @@ header {
 	font-weight: 200;
 	display: flex;
 	align-items: flex-end;
-	padding-bottom: 20px;
+	padding: 0 200px 20px;
 }
 section	{
 	max-width: 1600px;
@@ -68,12 +65,11 @@ section	{
 	color: #fff;
 	font-family: Roboto, sans-serif;
 	font-weight: 200;
-}
-.about .wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 300px;
+	padding: 0 200px;
 }
 .name_block h1 {
 	font-weight: 300;
@@ -97,6 +93,7 @@ section	{
 	font-family: Roboto, sans-serif;
 	line-height: 1.2;
 	font-weight: 300;
+	padding: 0 200px;
 }
 h3 {
 	color: #4f6068;
@@ -111,12 +108,24 @@ main {
 	max-width: 1600px;
 	margin: 0 auto;
 	font-family: Roboto, sans-serif;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 200px;
+	background-color: #f5f6f6;
 }
+
 .main_left {
-	width: 35%;
+	background-color: #fff;
+	padding: 0 40px 0 10px;
+	width: 45%;
+	-webkit-box-shadow: 13px 0px 18px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 13px 0px 18px 0px rgba(0,0,0,0.5);
+	box-shadow: 13px 0px 18px 0px rgba(0,0,0,0.5);
 }
 .main_right {
-	width: 65%;
+	width: 52%;
+	padding-left: 40px;
+
 }
 .personal__block {
 	color: #576468;
@@ -129,7 +138,6 @@ main {
 	font-weight: 600;
 	font-size: 24px;
 	width: 45%;
-	
 }
 .personal__block_data {
 	width: 55%;
@@ -175,22 +183,64 @@ main {
 	width: 30%;
 }
 .hobbies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.hobbies h3 {
+	width: 100%;
 }
 .hobbies__block {
+	width: 30%;
 }
 .hobbies__block_picture {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #b9c4ca;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hobbies__block_picture img {
+	width: 80px;
+	height: auto;
+
 }
 .hobbies__block_name {
+	color: #29373f;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px 0;
 }
 .work {
+	color: #576468;
 }
 .work__block {
+	margin: 0 0 20px 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	border-bottom: 2px solid #c5c6c8;
 }
 .work__block_company {
+	width: 90%;
+	font-weight: 600;
+	font-size: 20px;
+
 }
 .work__block_year {
+	width: 10%;
+	text-align: right;
+	font-weight: 600;
+	font-size: 18px;
 }
 .work__block_about {
+	width: 100%;
+	font-weight: 300;
+	font-size: 18px;
 }
 .skills {
 }
