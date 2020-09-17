@@ -1,0 +1,333 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+body {
+	width: 100%;
+	background-color: #282828;
+	margin: 0 auto;
+}
+header {
+	background-color: #29363f;
+	color: #fff;
+	height: 100px;
+	max-width: 1600px;
+	margin: 0 auto;
+	font-family: Roboto, sans-serif;
+	font-size: 28px;
+	font-weight: 200;
+	display: flex;
+	align-items: flex-end;
+	padding: 0 200px 20px;
+}
+section	{
+	max-width: 1600px;
+	margin: 0 auto;
+}
+.about {
+	background-color: #3e4f57;
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	font-weight: 200;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 300px;
+	padding: 0 200px;
+}
+.name_block h1 {
+	font-weight: 300;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+.name_block h2 {
+	color: #93a0a8;
+	font-size: 48px;
+	font-weight: 200;
+}
+.photo_block {
+}
+.bio {
+	display: flex;
+	align-items: center;
+	background-color: #b9c4ca;
+	color: #4f6068;
+	height: 150px;
+	font-size: 30px;
+	font-family: Roboto, sans-serif;
+	line-height: 1.2;
+	font-weight: 300;
+	padding: 0 200px;
+}
+h3 {
+	color: #4f6068;
+	font-size: 30px;
+	font-family: Roboto, sans-serif;
+	line-height: 1.2;
+	font-weight: 300;
+	padding: 50px 0 45px;
+	width: 100%;
+}
+main {
+	background-color: #fff;
+	max-width: 1600px;
+	margin: 0 auto;
+	font-family: Roboto, sans-serif;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 200px 50px;
+	background-color: #f5f6f6;
+}
+
+.main_left {
+	background-color: #fff;
+	padding: 0 40px 0 10px;
+	width: 45%;
+	-webkit-box-shadow: 13px 0px 18px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 13px 0px 18px 0px rgba(0,0,0,0.5);
+	box-shadow: 13px 0px 18px 0px rgba(0,0,0,0.5);
+}
+.main_right {
+	width: 52%;
+	padding-left: 40px;
+
+}
+.personal__block {
+	color: #576468;
+	height: 70px;
+	display: flex;
+	border-bottom: 2px solid #c5c6c8;
+	align-items: center;
+}
+.personal__block_category {
+	font-weight: 600;
+	font-size: 24px;
+	width: 45%;
+}
+.personal__block_data {
+	width: 55%;
+	font-size: 24px;
+	font-weight: 300;
+	text-align: left;
+}
+.personal__block_data span {
+	font-size: 16px;
+}
+.software {
+}
+.software__block {
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+.software__block_category {
+	font-size: 24px;
+	font-weight: 300;
+	width: 45%;
+}
+.software__block_skill {
+	position: relative;
+	width: 55%;
+	background-color: #d9dadb;
+	height: 30%;
+}
+.software__block_skill::before {
+	content: '';
+	position: absolute;
+	width: 50%;
+	background-color: #3e4e55;
+	height: 100%;
+}
+.html::before, .css::before {
+	width: 75%;
+}
+.js::before {
+	width: 20%;
+}
+.figma::before {
+	width: 30%;
+}
+.hobbies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.hobbies h3 {
+	width: 100%;
+}
+.hobbies__block {
+	width: 30%;
+}
+.hobbies__block_picture {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #b9c4ca;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hobbies__block_picture img {
+	width: 80px;
+	height: auto;
+
+}
+.hobbies__block_name {
+	color: #29373f;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px 0;
+}
+.work {
+	color: #576468;
+}
+.work__block {
+	margin: 0 0 20px 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	border-bottom: 2px solid #c5c6c8;
+	position: relative;
+}
+.work__block::before {
+	content: '';
+	position: absolute;
+	background: url(assets/Circle.png) 50%/cover no-repeat;
+	width: 30px;
+	height: 30px;
+	top: 0;
+	left: -40px;
+	z-index: 2;
+}
+.work__block::after {
+	content: '';
+	position: absolute;
+	height: 100px;
+	width: 2px;
+	left: -25px;
+	top: 5px;
+	z-index: 1;
+	background-color: #3e4f57;
+}
+.work__block:last-child::after {
+	height: 80px;
+}
+.work__block_company {
+	width: 90%;
+	font-weight: 600;
+	font-size: 20px;
+
+}
+.work__block_year {
+	width: 10%;
+	text-align: right;
+	font-weight: 600;
+	font-size: 18px;
+}
+.work__block_about {
+	width: 100%;
+	font-weight: 300;
+	font-size: 18px;
+}
+.skills {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.skills__block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 10px solid #3e4f57;
+}
+footer {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+.socials {
+	background-color: #3e4f57;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 400px;
+	text-align: center;
+}
+.socials__net {
+}
+.socials__net_logo {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #b9c4ca;
+	overflow: hidden;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.socials__net_logo img {
+	width: 50px;
+	height: auto;
+}
+.socials__net a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	transition: 0.4s;
+}
+.socials__net a:hover {
+	color: #FFFFFF;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+} 
+.contacts {
+	background-color: #29363f;
+	display: flex;
+	height: 60px;
+	color: #fff;
+	font-family: Roboto, Sans-serif;
+	font-size: 18px;
+	justify-content: space-around;
+	align-items: center;
+}
+
