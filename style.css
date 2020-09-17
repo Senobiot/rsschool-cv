@@ -111,7 +111,7 @@ main {
 	font-family: Roboto, sans-serif;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 200px;
+	padding: 0 200px 50px;
 	background-color: #f5f6f6;
 }
 
@@ -282,23 +282,46 @@ main {
 	border-radius: 50%;
 	border: 10px solid #3e4f57;
 }
-.skills__block_name {
-}
-.education {
-}
-.education__block {
-}
-.education__block_statement {
+footer {
+	max-width: 1600px;
+	margin: 0 auto;
 }
 .socials {
+	background-color: #3e4f57;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 400px;
+	text-align: center;
 }
 .socials__net {
 }
 .socials__net_logo {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: #b9c4ca;
+	overflow: hidden;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-.socials__net_link {
+.socials__net_logo img {
+	width: 50px;
+	height: auto;
 }
+.socials__net a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	transition: 0.4s;
+}
+.socials__net a:hover {
+	color: #FFFFFF;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+} 
 .contacts {
+	background-color: #29363f;
 }
 .contacts_adress {
 }
