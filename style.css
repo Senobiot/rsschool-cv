@@ -322,12 +322,12 @@ footer {
 } 
 .contacts {
 	background-color: #29363f;
+	display: flex;
+	height: 60px;
+	color: #fff;
+	font-family: Roboto, Sans-serif;
+	font-size: 18px;
+	justify-content: space-around;
+	align-items: center;
 }
-.contacts_adress {
-}
-.contacts_phone {
-}
-.contacts_email {
-}
-.contacts_portfolio {
-}
+
